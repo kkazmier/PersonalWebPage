@@ -1,2 +1,2 @@
 # PersonalWebPage
-Own personal webpage.
+Own personal web page.
