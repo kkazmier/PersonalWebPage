@@ -15,15 +15,19 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="css/styles.css" rel="stylesheet" />
-    </head>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		
+		<!-- CSS only -->
+	</head>
     <body id="page-top">
         <?php include "navbar.html"; ?>
         <?php include "masthead.html"; ?>
         <?php include "projectsmain.html"; ?>
-        <?php include "about.html"; ?>
-		
 		<?php include "springprojects.html"; ?>
 		<?php include "javafxprojects.html"; ?>
+        <?php include "about.html"; ?>
+		
+		
 		
         <?php include "contact.html"; ?>
         <?php include "footer.html"; ?>
