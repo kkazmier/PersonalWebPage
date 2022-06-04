@@ -21,6 +21,10 @@
         <?php include "masthead.html"; ?>
         <?php include "projectsmain.html"; ?>
         <?php include "about.html"; ?>
+		
+		<?php include "springprojects.html"; ?>
+		<?php include "javafxprojects.html"; ?>
+		
         <?php include "contact.html"; ?>
         <?php include "footer.html"; ?>
         <!-- Copyright Section-->
