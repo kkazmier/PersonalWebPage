@@ -1,115 +1,105 @@
 <section class="page-section" id="spring-projects">
 	<div class="container">
 		<h2 class="page-section-heading text-center text-uppercase text-green">Projekty Springa</h2>
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="card">
-					<div class="card-header">
-						<a href="https://github.com/kkazmier/delivery-drivers-queue-manager">Repozytorium na Githubie</a>
+		<div class="card-columns">
+			<div class="card">
+				<div class="card-header">
+					<a href="https://github.com/kkazmier/delivery-drivers-queue-manager">Repozytorium na Githubie</a>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">Kolejka kierowców</h5>
+					<p class="card-text">
+						Aplikacja webowa stworzona do zarządzania kierowcami w restauracji dostarczającej swoje dania do domów klientów. 
+						Pomysł programu wymyśliło samo życie. <b>Projekt działał fizycznie przez kilka miesięcy w jednej z warszawskich pizzerii.</b>
+					</p>
+					<div class="col">
+						<a class="card-text row" data-toggle="collapse" href="#drivers-queue-manager-features">Cechy</a>
+						<div class="collapse" id="drivers-queue-manager-features">
+						<ul>
+							<li>rejestracja</li>
+							<li>logowanie/wylogowanie</li>
+							<li>zmiana statusu kierowcy
+								<ul>
+									<li>gotowy</li>
+									<li>realizacja dostawy</li>
+									<li>powrót do lokalu</li>
+									<li>przerwa</li>
+								</ul>
+							</li>
+							<li>lista kierowców uporządkowana pod względem
+								<ul>
+									<li>statusu</li>
+									<li>czasu zmiany statusu</li>
+								</ul>
+							</li>
+						</ul>
 					</div>
-					<div class="card-body">
-						<h5 class="card-title">Kolejka kierowców</h5>
-						<p class="card-text">
-							Aplikacja webowa stworzona do zarządzania kierowcami w restauracji dostarczającej swoje dania do domów klientów. 
-							Pomysł programu wymyśliło samo życie. <b>Projekt działał fizycznie przez kilka miesięcy w jednej z warszawskich pizzerii.</b>
-						</p>
-						<div class="col">
-							<a class="card-text row" data-toggle="collapse" href="#drivers-queue-manager-features">Cechy</a>
-							<div class="collapse" id="drivers-queue-manager-features">
-							<ul>
-								<li>rejestracja</li>
-								<li>logowanie/wylogowanie</li>
-								<li>zmiana statusu kierowcy
-									<ul>
-										<li>gotowy</li>
-										<li>realizacja dostawy</li>
-										<li>powrót do lokalu</li>
-										<li>przerwa</li>
-									</ul>
-								</li>
-								<li>lista kierowców uporządkowana pod względem
-									<ul>
-										<li>statusu</li>
-										<li>czasu zmiany statusu</li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-						</div>
-						
-						<div class="col">
-							<a class="card-text row" data-toggle="collapse" href="#drivers-queue-manager-technology-stack">Użyte technologie</a>
-							<div class="collapse" id="drivers-queue-manager-technology-stack">
-							<ul>
-								<li>Spring Boot</li>
-								<li>Spring Security</li>
-								<li>Spring Data JPA</li>
-								<li>Maven</li>
-								<li>Postgres</li>
-								<li>Thymeleaf</li>
-								<li>Bootstrap</li>
-							</ul>
-						</div>	
-						</div>
-						
-						
-						
-						
 					</div>
+					
+					<div class="col">
+						<a class="card-text row" data-toggle="collapse" href="#drivers-queue-manager-technology-stack">Użyte technologie</a>
+						<div class="collapse" id="drivers-queue-manager-technology-stack">
+						<ul>
+							<li>Spring Boot</li>
+							<li>Spring Security</li>
+							<li>Spring Data JPA</li>
+							<li>Maven</li>
+							<li>Postgres</li>
+							<li>Thymeleaf</li>
+							<li>Bootstrap</li>
+						</ul>
+					</div>	
+					</div>	
 				</div>
 			</div>
-			
-			<div class="col-sm-6">
-				<div class="card">
-					<div class="card-header">
-						<a href="https://github.com/kkazmier/simple-order-manager">Repozytorium na Githubie</a>
+
+			<div class="card">
+				<div class="card-header">
+					<a href="https://github.com/kkazmier/simple-order-manager">Repozytorium na Githubie</a>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">Menedżer zamówień</h5>
+					<p class="card-text">
+						Program do zarządzania zamówieniami. 
+					</p>	
+					<div class="col">
+						<a class="card-text row" data-toggle="collapse" href="#orders-manager-features">Cechy</a>
+						<div class="collapse" id="orders-manager-features">
+						<ul>
+							<li>dodawanie/usuwanie kierowców</li>
+							<li>dodawanie/usuwanie zamowień</li>
+							<li>przypisywanie zamowień do kierowców</li>
+							<li>status zamówienia
+								<ul>
+									<li>przyjęte</li>
+									<li>w trakcie realizacji</li>
+									<li>zakończone</li>
+								</ul>
+								wraz z czasem zmiany statusu
+							</li>
+							<li>czas pozostały do dostarczenia</li>
+							<li>podgląd na mapie</li>
+						</ul>
 					</div>
-					<div class="card-body">
-						<h5 class="card-title">Menedżer zamówień</h5>
-						<p class="card-text">
-							Program do zarządzania zamówieniami. 
-						</p>	
-						<div class="col">
-							<a class="card-text row" data-toggle="collapse" href="#orders-manager-features">Cechy</a>
-							<div class="collapse" id="orders-manager-features">
-							<ul>
-								<li>dodawanie/usuwanie kierowców</li>
-								<li>dodawanie/usuwanie zamowień</li>
-								<li>przypisywanie zamowień do kierowców</li>
-								<li>status zamówienia
-									<ul>
-										<li>przyjęte</li>
-										<li>w trakcie realizacji</li>
-										<li>zakończone</li>
-									</ul>
-									wraz z czasem zmiany statusu
-								</li>
-								<li>czas pozostały do dostarczenia</li>
-								<li>podgląd na mapie</li>
-							</ul>
-						</div>
-						</div>
+					</div>
+					
+					<div class="col">
+						<a class="card-text row" data-toggle="collapse" href="#orders-manager-technology-stack">Użyte technologie</a>
+						<div class="collapse" id="orders-manager-technology-stack">
+						<ul>
+							<li>Spring Boot</li>
+							<li>Spring Security</li>
+							<li>Spring Data JPA</li>
+							<li>Maven</li>
+							<li>Postgres</li>
+							<li>Thymeleaf</li>
+							<li>Bootstrap</li>
+						</ul>
+					</div>
+					</div>
 						
-						<div class="col">
-							<a class="card-text row" data-toggle="collapse" href="#orders-manager-technology-stack">Użyte technologie</a>
-							<div class="collapse" id="orders-manager-technology-stack">
-							<ul>
-								<li>Spring Boot</li>
-								<li>Spring Security</li>
-								<li>Spring Data JPA</li>
-								<li>Maven</li>
-								<li>Postgres</li>
-								<li>Thymeleaf</li>
-								<li>Bootstrap</li>
-							</ul>
-						</div>
-						</div>
-							
-					</div>
 				</div>
 			</div>
-			
-			
 		</div>
 	</div>
 </section>
