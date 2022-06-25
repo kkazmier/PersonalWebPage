@@ -32,10 +32,7 @@
 		
         <?php include "contact.html"; ?>
         <?php include "footer.html"; ?>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Karol Kaźmierczak 2022</small></div>
-        </div>
+        <<?php include "copyright.html"; ?>
         
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
