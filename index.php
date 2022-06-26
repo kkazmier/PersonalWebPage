@@ -26,6 +26,7 @@
         <?php include "projectsmain.html"; ?>
 		<?php include "springprojects.html"; ?>
 		<?php include "javafxprojects.html"; ?>
+        <?php include "technologies.html"; ?>
         <?php include "about.html"; ?>
 		
 		
