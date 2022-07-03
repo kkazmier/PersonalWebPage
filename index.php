@@ -15,6 +15,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="css/styles.css" rel="stylesheet" />
+		<link href="css/masthead.css" rel="stylesheet" />
+		<link href="css/navbar.css" rel="stylesheet" />
+		<link href="css/projects.css" rel="stylesheet" />
+		<link href="css/technologies.css" rel="stylesheet" />
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,7 +30,7 @@
         <?php include "projectsmain.html"; ?>
 		<?php include "springprojects.html"; ?>
 		<?php include "javafxprojects.html"; ?>
-        <?php include "technologies.html"; ?>
+		<?php include "technologies.html"; ?>
         <?php include "about.html"; ?>
 		
 		
