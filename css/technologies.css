@@ -13,3 +13,7 @@
     flex-wrap: nowrap;
     margin: 5%;
 }
+
+.ide {
+    background-color: darkgray;
+}
