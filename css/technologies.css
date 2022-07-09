@@ -10,6 +10,7 @@
 .technology-title {
     display: flex;
     width: auto;
+    text-align: left;
     flex-wrap: nowrap;
     margin: 5%;
 }
