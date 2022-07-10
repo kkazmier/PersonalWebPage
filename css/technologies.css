@@ -10,9 +10,9 @@
 .technology-title {
     display: flex;
     width: auto;
-    text-align: left;
+    text-align: right;
     flex-wrap: nowrap;
-    margin: 5%;
+    margin: 10%;
 }
 
 .ide {

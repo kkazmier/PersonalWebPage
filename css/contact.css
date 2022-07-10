@@ -1,0 +1,12 @@
+.contact-header {
+    margin: 5%;
+}
+
+.email-btn{
+    width: 27%;
+    margin: auto;
+}
+
+.contact-section{
+    display: flex;
+}
