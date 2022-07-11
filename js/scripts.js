@@ -57,3 +57,7 @@ function copyEmail() {
     const cb = navigator.clipboard;
     cb.writeText("dev.karol.kazmierczak@gmail.com").then(() => alert("Adres skopiowany."));
 }
+
+function projectInBuildInfo() {
+    alert("Projekt w przygotowaniu...");
+}
