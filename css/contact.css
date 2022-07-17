@@ -10,3 +10,22 @@
 .contact-section{
     display: flex;
 }
+
+.email-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgb(76, 151, 108);
+
+}
+
+.email-tooltip-text {
+    visibility: hidden;
+    width: auto;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.email-tooltip:hover .email-tooltip-text {
+    visibility: visible;
+}
