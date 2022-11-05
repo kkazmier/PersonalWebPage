@@ -33,6 +33,7 @@
 		<?php include "springprojects.html"; ?>
 		<?php include "javafxprojects.html"; ?>
 		<?php include "reactnativeprojects.html"; ?>
+		<?php include "androidprojects.html"; ?>
 		<?php include "technologies.html"; ?>
         <?php include "about.html"; ?>		
         <?php include "contact.html"; ?>
